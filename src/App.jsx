@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./sections/HeroSection";
 import MessageSection from "./sections/MessageSection";
 import FlavorSection from "./sections/FlavorSection";
+import NutritionSection from "./sections/NutritionSection";
 //gsap
 import { ScrollSmoother, ScrollTrigger } from "gsap/all";
 import gsap from "gsap";
@@ -24,6 +25,7 @@ function App() {
           <HeroSection />
           <MessageSection />
           <FlavorSection />
+          <NutritionSection />
         </div>
       </div>
     </main>
