@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import HeroSection from "./sections/HeroSection";
+import MessageSection from "./sections/MessageSection";
 //gsap
 import { ScrollTrigger } from "gsap/all";
 import gsap from "gsap";
@@ -11,6 +12,7 @@ function App() {
     <main>
       <Navbar />
       <HeroSection />
+      <MessageSection />
     </main>
   );
 }

@@ -49,7 +49,7 @@ const HeroSection = () => {
   });
 
   return (
-    <section className="bg-main-bg h-[200vh]">
+    <section className="bg-main-bg">
       <div className="hero-container">
         <img
           src="/images/static-img.png"
